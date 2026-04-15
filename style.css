@@ -170,7 +170,7 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 gap:10px;
-height:calc(100vh-100px);
+height: calc(100vh-100px);
 }
 .contactform{
 background-color:#f3d6d8;
@@ -195,4 +195,22 @@ cursor: pointer;
 
 background-color: #8c3940;
 
+}
+@media(max-width: 768px){
+.navg{
+    flex-direction:column;
+    width:95%;
+    padding:10px;}
+    .navlink{
+        flex-direction:coulmn;
+        gap:10px;
+        text-align:center;
+    }
+    .container{
+        width:95%;}
+    .box{
+        padding:15px}
+    .addform,.contactform{width:90%;}
+    table{width:100%;
+          font-size:14px;}
 }
